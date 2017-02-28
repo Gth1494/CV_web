@@ -18,15 +18,15 @@
       </svg>
       <h1>Curriculum Vitae</h1>
       <h2>Glenis María Toribio Hernandéz</h2>
-      <h3><p><em>14-01-1994</em> Santiago de los Caballeros, Rep. Dom.</p></h3>
+      <h3><p>Fecha de nacimiento:&nbsp;<em>14-01-1994</em> &nbsp;&nbsp;&nbsp;Lugar de nacimiento:&nbsp;<em>Santiago de los Caballeros, Rep. Dom.</em></p></h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
     </header>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="educacion.html">Educación</a></li>
-      <li><a href="experiencia.html">Experiencia</a></li>
-    </ul>
     <h2>Educación</h2>
-    <table border="1">
+    <table border="1" cellspacing="0" cellpadding="2">
       <thead>
         <tr>
           <th>Año</th>
@@ -59,11 +59,10 @@
       </tfoot>
     </table>
     <br><br>
-    <form>
-      <fieldset autocomplete="on" name="FormEstudios">
-        <legend><h3>Agregar Estudios</h3></legend>
-        <br>
-        <label for="label_year"><strong>Año:</strong></label>
+    <h3>Agregar Estudios</h3>
+    <form action="">
+      <!-- <fieldset autocomplete="on" name="FormEstudios"> -->
+        <label for="label_year">Año:</label>
         <select name="year">
           <option>2017</option>
           <option>2016</option>
@@ -96,21 +95,21 @@
         </select>
         <br>
         <br>
-        <label for="label_institucion"><strong>Institución:</strong></label>
+        <label for="label_institucion">Institución:</label>
         <input type="text" name="institucion" id="campo_institucion" placeholder="Ej: Universidad X" required>
         <br>
         <br>
-        <label for="label_lugar"><strong>Lugar:</strong></label>
+        <label for="label_lugar">Lugar:</label>
         <textarea name="lugar" rows="3" cols="80" id="campo_lugar"></textarea>
         <br>
         <br>
-        <label for="label_culmino"><strong>¿Culminó?</strong></label>
+        <label for="label_culmino">¿Culminó?</label>
         <input type="radio" name="culmimo" id="campo_culmimo_si">Si
         <input type="radio" name="culmimo" id="campo_culmino_no">No
         <br>
         <br>
         <p><input type="submit" name="enviar" value="Enviar"></p>
-      </fieldset>
+      <!-- </fieldset> -->
     </form>
     <footer>
       <p>@Derechos Reservados &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:gth@hotmail.com?subject=correo"> Email: gth@hotmail.com</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Teléfono: 829-584-1313 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/uas/login" target="_blank">LinkedIn: Glenis Toribio</a></p>
